@@ -1,0 +1,10 @@
+//
+// HTML
+// 1. Prevent adjustments of font size after orientation changes in IE and iOS.
+// 2. Correct the line height in all browsers.
+// ---------------------------------------------------------------------------------
+
+html {
+  @include prefixer(text-size-adjust, 100%, ms webkit); // 1
+  line-height: 1.15; // 2
+}
