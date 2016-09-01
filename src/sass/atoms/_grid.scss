@@ -1,0 +1,14 @@
+//
+// Grid
+// ---------------------------------------------------------------------------------
+
+.grid {
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: 100%;
+
+  @include media($bp-medium) {
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: auto;
+  }
+}
