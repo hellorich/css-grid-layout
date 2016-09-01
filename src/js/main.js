@@ -1,4 +1,4 @@
-require(['jquery', 'test'], function ($, test) {
+require(['jquery', 'polyfills', 'test'], function ($, polyfills, test) {
   
   'use strict';
   
