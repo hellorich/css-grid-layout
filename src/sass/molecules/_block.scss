@@ -1,0 +1,35 @@
+//
+// Block
+// ---------------------------------------------------------------------------------
+
+.block {
+  @include size(100% em(300));
+  background: yellow;
+
+  &.block-protect {
+    z-index: 1;
+  }
+
+  &.block-discover-bg,
+  &.block-shop-bg,
+  &.block-source-bg {
+    background: orange;
+
+    @include media($bp-medium) {
+      @include size(100% em(600));
+    }
+  }
+  
+  &.block-create-bg,
+  &.block-cure-bg,
+  &.block-heal-bg,
+  &.block-navigate-bg,
+  &.block-travel-bg {
+    
+    background: orange;
+
+    @include media($bp-medium) {
+      @include size(100% em(300));
+    }
+  }
+}
