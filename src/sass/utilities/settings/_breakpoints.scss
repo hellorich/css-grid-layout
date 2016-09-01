@@ -1,0 +1,8 @@
+//
+// Breakpoints
+// ------------------------------------------------------------------
+
+$bp-x-small: new-breakpoint(min-width em(321));
+$bp-small: new-breakpoint(min-width em(666));
+$bp-medium: new-breakpoint(min-width em(768));
+$bp-large: new-breakpoint(min-width em(1024));
